@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    padding-top: 83px;
+    display: flex;
+    justify-content: space-between;
+
+    &__link {
+        &__txt {
+            text-align: center;
+            color: rgb(98, 87, 145);
+            font-family: Cera Compact Pro;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0%;
+        }
+    }
+}
+
+// main
+.date {
+    display: flex;
+    padding-top: 169px;
+
+    &__left {
+        width: 293px;
+        height: 320px;
+        background: rgb(24, 24, 24);
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        padding: 102px 91px;
+
+        &__icon {
+            width: 129px;
+            height: 129px;
+            background: rgb(243, 155, 3);
+            border-radius: 50%;
+            padding: 38px 40px;
+        }
+    }
+
+    &__right {
+        width: 719px;
+        background: rgb(98, 87, 145);
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        padding-top: 60px;
+        padding-left: 86px;
+
+        &__bio {
+
+            color: rgb(255, 255, 255);
+            font-family: Cera Compact Pro;
+            font-size: 32px;
+
+        }
+
+        &__txt {
+            color: rgb(255, 255, 255);
+            font-family: Cera Compact Pro;
+            font-size: 80px;
+
+        }
+    }
+}
+
+
+// footer
+.footer {
+    padding-top: 20px;
+
+    margin-top: 200px;
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+
+        &__list {
+            &__link {
+                position: relative;
+
+                &__txt {
+                    text-align: center;
+                    color: rgb(98, 87, 145);
+                    font-family: Cera Condensed Pro;
+                    font-size: 40px;
+                }
+
+                &__icon {
+                    width: 93.68px;
+                }
+
+
+            }
+
+            &__link:hover &__link__icon {
+                position: absolute;
+                top: -80px;
+                left: -48px;
+                width: 182px;
+            }
+
+            &__link:hover &__link__txt {
+                margin-top: 117px;
+            }
+
+        }
+    }
+}

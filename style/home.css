@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding-top: 83px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__link__txt {
+  text-align: center;
+  color: rgb(98, 87, 145);
+  font-family: Cera Compact Pro;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.date {
+  display: flex;
+  padding-top: 169px;
+}
+.date__left {
+  width: 293px;
+  height: 320px;
+  background: rgb(24, 24, 24);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 102px 91px;
+}
+.date__left__icon {
+  width: 129px;
+  height: 129px;
+  background: rgb(243, 155, 3);
+  border-radius: 50%;
+  padding: 38px 40px;
+}
+.date__right {
+  width: 719px;
+  background: rgb(98, 87, 145);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-top: 60px;
+  padding-left: 86px;
+}
+.date__right__bio {
+  color: rgb(255, 255, 255);
+  font-family: Cera Compact Pro;
+  font-size: 32px;
+}
+.date__right__txt {
+  color: rgb(255, 255, 255);
+  font-family: Cera Compact Pro;
+  font-size: 80px;
+}
+
+.footer {
+  padding-top: 20px;
+  margin-top: 200px;
+}
+.footer__item {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item__list__link {
+  position: relative;
+}
+.footer__item__list__link__txt {
+  text-align: center;
+  color: rgb(98, 87, 145);
+  font-family: Cera Condensed Pro;
+  font-size: 40px;
+}
+.footer__item__list__link__icon {
+  width: 93.68px;
+}
+.footer__item__list__link:hover .footer__item__list__link__icon {
+  position: absolute;
+  top: -80px;
+  left: -48px;
+  width: 182px;
+}
+.footer__item__list__link:hover .footer__item__list__link__txt {
+  margin-top: 117px;
+}/*# sourceMappingURL=home.css.map */
