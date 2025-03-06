@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.login {
+  padding-top: 290px;
+  padding-bottom: 392px;
+  padding-left: 234px;
+  padding-right: 234px;
+}
+.login__logo {
+  margin-left: 120px;
+  margin-bottom: 71px;
+}
+.login__form__emlimg {
+  position: relative;
+  top: 44px;
+  left: 21px;
+  padding-right: 19px;
+  display: inline;
+  border-right: 3px solid rgb(98, 87, 145);
+}
+.login__form__email {
+  width: 597px;
+  height: 113px;
+  box-sizing: border-box;
+  border: 3px solid rgb(98, 87, 145);
+  border-radius: 85px;
+  padding-left: 152px;
+  font-size: 40px;
+  color: rgb(98, 87, 145);
+}
+.login__form__psimg {
+  position: relative;
+  top: 72px;
+  left: 30px;
+  padding-right: 19px;
+  padding-left: 10px;
+  display: inline;
+  border-right: 3px solid rgb(98, 87, 145);
+}
+.login__form__email::-moz-placeholder {
+  color: rgb(98, 87, 145);
+  font-size: 40px;
+}
+.login__form__email::placeholder {
+  color: rgb(98, 87, 145);
+  font-size: 40px;
+}
+.login__form__pasword {
+  width: 597px;
+  height: 113px;
+  box-sizing: border-box;
+  border: 3px solid rgb(98, 87, 145);
+  border-radius: 85px;
+  padding-left: 152px;
+  font-size: 40px;
+  color: rgb(98, 87, 145);
+  margin-top: 28px;
+}
+.login__form__pasword::-moz-placeholder {
+  color: rgb(98, 87, 145);
+  font-size: 40px;
+}
+.login__form__pasword::placeholder {
+  color: rgb(98, 87, 145);
+  font-size: 40px;
+}
+.login__form__link {
+  margin-top: 65px;
+  display: block;
+  text-align: center;
+  color: rgb(98, 87, 145);
+  font-family: Cera Compact Pro;
+  font-size: 26px;
+  margin-bottom: 114px;
+}
+.login__form__sumbit {
+  color: rgb(255, 255, 255);
+  font-family: Cera Compact Pro;
+  font-size: 40px;
+  border-radius: 85px;
+  border: none;
+  background: rgb(98, 87, 145);
+  padding: 26px 195px;
+  margin-left: 49px;
+}/*# sourceMappingURL=main.css.map */
