@@ -1,0 +1,311 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header {
+  background: rgba(233, 231, 231, 0.767);
+  width: 1080px;
+  height: 1920px;
+  &__link {
+    display: block;
+    text-decoration: none;
+    &__photo {
+      margin-left: 232px;
+    }
+  }
+
+  &__img {
+    margin-top: 38px;
+    margin-left: 96px;
+  }
+  &__txt {
+    color: rgb(98, 87, 145);
+    font-family: Cera Compact Pro;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 101px;
+    padding-left: 548px;
+    margin-top: -350px;
+  }
+  &__photo-three {
+    position: relative;
+    left: 529px;
+    bottom: 10px;
+  }
+  &__photo-two {
+    position: relative;
+    left: 553px;
+  }
+  &__href {
+    display: block;
+    text-decoration: none;
+    &__p-txt {
+      color: rgb(98, 87, 145);
+      font-family: Cera Compact Pro;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 40px;
+      padding-left: 605px;
+      margin-top: -40px;
+    }
+  }
+
+  &__text {
+    color: rgb(98, 87, 145);
+    font-family: Cera Compact Pro;
+    font-size: 60px;
+    font-weight: 500;
+    padding-left: 134px;
+    margin-top: -70px;
+    line-height: 75px;
+  }
+  &__hr {
+    border: 4px solid rgb(98, 87, 145);
+    width: 802px;
+    height: 0;
+    margin-top: 27px;
+    margin-left: 134px;
+  }
+  &__photo-four {
+    margin-left: 915px;
+    padding-top: 379px;
+  }
+  &__photo-five {
+    margin-left: 915px;
+    margin-top: 201px;
+  }
+  &__text-two {
+    color: rgb(98, 87, 145);
+    font-family: Cera Compact Pro;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 75px;
+    padding-left: 134px;
+    margin-top: -70px;
+  }
+  &__hr-two {
+    width: 802px;
+    height: 0;
+    border: 4px solid rgb(98, 87, 145);
+    margin-left: 134px;
+    margin-top: 27px;
+  }
+  &__photo-six {
+    margin-left: 915px;
+    margin-top: 201px;
+  }
+  &__text-three {
+    color: rgb(98, 87, 145);
+    font-family: Cera Compact Pro;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 75px;
+    padding-left: 134px;
+    margin-top: -80px;
+  }
+  &__hr-three {
+    width: 802px;
+    height: 0;
+    margin-left: 134px;
+    margin-top: 27px;
+    border: 4px solid rgb(98, 87, 145);
+  }
+  &__link {
+    color: rgb(243, 155, 3);
+    font-family: Cera Compact Pro;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    display: block;
+    text-decoration: none;
+    padding-top: 132px;
+    padding-left: 691px;
+  }
+  &__img-two {
+    position: relative;
+    left: 899px;
+    bottom: 40px;
+  }
+  &__img-three {
+    position: relative;
+    left: 893px;
+    bottom: 55px;
+  }
+  &__img-four {
+    position: relative;
+    left: 887px;
+    bottom: 47px;
+  }
+  &__footer {
+    background: rgb(255, 255, 255);
+    width: 1080px;
+    height: 237px;
+    margin-top: 139px;
+    display: flex;
+
+    &__link {
+      display: block;
+      text-decoration: none;
+      &__img {
+        margin-left: 65px;
+        margin-top: 23px;
+      }
+      &__p-txt {
+        color: rgb(149, 149, 149);
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+        font-family: "Oswald", serif;
+        padding-left: 70px;
+        padding-top: 21px;
+      }
+      &__img:hover {
+        height: 140px;
+      }
+    }
+    &__link-two {
+      display: block;
+      text-decoration: none;
+      &__img {
+        margin-top: 23px;
+        margin-left: 98px;
+      }
+      &__p-txt {
+        color: rgb(149, 149, 149);
+
+        font-family: "Oswald", serif;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+        font-family: "Oswald", serif;
+        padding-left: 102px;
+        padding-top: 21px;
+      }
+      &__img:hover {
+        height: 140px;
+      }
+    }
+    &__link-three {
+      display: block;
+      text-decoration: none;
+      &__img {
+        width: 182px;
+        height: 190px;
+
+        position: relative;
+        left: 97px;
+        bottom: 50px;
+        border-radius: 70px;
+      }
+      &__p-txt {
+        color: rgb(98, 87, 145);
+        font-family: "Oswald", serif;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+        padding-left: 140px;
+        margin-top: -40px;
+      }
+      &__img:hover {
+        width: 230px;
+        height: 230px;
+      }
+    }
+    &__link-four {
+      display: block;
+      text-decoration: none;
+      &__img {
+        margin-top: 23px;
+        margin-left: 108px;
+      }
+      &__p-txt {
+        color: rgb(149, 149, 149);
+        font-family: "Oswald", serif;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+        padding-left: 140px;
+        padding-top: 21px;
+      }
+      &__img:hover {
+        height: 140px;
+      }
+    }
+    &__link-five {
+      display: block;
+      text-decoration: none;
+      &__img {
+        margin-top: 23px;
+        margin-left: 68px;
+      }
+      &__p-txt {
+        font-family: "Oswald", serif;
+        font-size: 40px;
+        font-weight: 500;
+        color: rgb(149, 149, 149);
+
+        line-height: 50px;
+        padding-left: 50px;
+        padding-top: 21px;
+      }
+      &__img:hover {
+        height: 140px;
+      }
+    }
+  }
+}
+// footer
+.footer {
+    padding-top: 20px;
+
+    margin-top: 200px;
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+
+        &__list {
+            &__link {
+                position: relative;
+
+                &__txt {
+                    text-align: center;
+                    color: rgb(98, 87, 145);
+                    font-family: Cera Condensed Pro;
+                    font-size: 40px;
+                }
+
+                &__icon {
+                    width: 93.68px;
+                }
+
+
+            }
+
+            &__link:hover &__link__icon {
+                position: absolute;
+                top: -80px;
+                left: -48px;
+                width: 182px;
+            }
+
+            &__link:hover &__link__txt {
+                margin-top: 117px;
+            }
+
+        }
+    }
+}

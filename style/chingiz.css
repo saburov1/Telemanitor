@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.box {
+  width: 1200px;
+  height: 750px;
+  background-color: blue;
+  background-image: url("../images/chingiz.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.theme {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 50px;
+}/*# sourceMappingURL=chingiz.css.map */

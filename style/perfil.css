@@ -1,0 +1,297 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background: rgba(233, 231, 231, 0.767);
+  width: 1080px;
+  height: 1920px;
+}
+.header__link {
+  display: block;
+  text-decoration: none;
+}
+.header__link__photo {
+  margin-left: 232px;
+}
+.header__img {
+  margin-top: 38px;
+  margin-left: 96px;
+}
+.header__txt {
+  color: rgb(98, 87, 145);
+  font-family: Cera Compact Pro;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 101px;
+  padding-left: 548px;
+  margin-top: -350px;
+}
+.header__photo-three {
+  position: relative;
+  left: 529px;
+  bottom: 10px;
+}
+.header__photo-two {
+  position: relative;
+  left: 553px;
+}
+.header__href {
+  display: block;
+  text-decoration: none;
+}
+.header__href__p-txt {
+  color: rgb(98, 87, 145);
+  font-family: Cera Compact Pro;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  padding-left: 605px;
+  margin-top: -40px;
+}
+.header__text {
+  color: rgb(98, 87, 145);
+  font-family: Cera Compact Pro;
+  font-size: 60px;
+  font-weight: 500;
+  padding-left: 134px;
+  margin-top: -70px;
+  line-height: 75px;
+}
+.header__hr {
+  border: 4px solid rgb(98, 87, 145);
+  width: 802px;
+  height: 0;
+  margin-top: 27px;
+  margin-left: 134px;
+}
+.header__photo-four {
+  margin-left: 915px;
+  padding-top: 379px;
+}
+.header__photo-five {
+  margin-left: 915px;
+  margin-top: 201px;
+}
+.header__text-two {
+  color: rgb(98, 87, 145);
+  font-family: Cera Compact Pro;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 75px;
+  padding-left: 134px;
+  margin-top: -70px;
+}
+.header__hr-two {
+  width: 802px;
+  height: 0;
+  border: 4px solid rgb(98, 87, 145);
+  margin-left: 134px;
+  margin-top: 27px;
+}
+.header__photo-six {
+  margin-left: 915px;
+  margin-top: 201px;
+}
+.header__text-three {
+  color: rgb(98, 87, 145);
+  font-family: Cera Compact Pro;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 75px;
+  padding-left: 134px;
+  margin-top: -80px;
+}
+.header__hr-three {
+  width: 802px;
+  height: 0;
+  margin-left: 134px;
+  margin-top: 27px;
+  border: 4px solid rgb(98, 87, 145);
+}
+.header__link {
+  color: rgb(243, 155, 3);
+  font-family: Cera Compact Pro;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  display: block;
+  text-decoration: none;
+  padding-top: 132px;
+  padding-left: 691px;
+}
+.header__img-two {
+  position: relative;
+  left: 899px;
+  bottom: 40px;
+}
+.header__img-three {
+  position: relative;
+  left: 893px;
+  bottom: 55px;
+}
+.header__img-four {
+  position: relative;
+  left: 887px;
+  bottom: 47px;
+}
+.header__footer {
+  background: rgb(255, 255, 255);
+  width: 1080px;
+  height: 237px;
+  margin-top: 139px;
+  display: flex;
+}
+.header__footer__link {
+  display: block;
+  text-decoration: none;
+}
+.header__footer__link__img {
+  margin-left: 65px;
+  margin-top: 23px;
+}
+.header__footer__link__p-txt {
+  color: rgb(149, 149, 149);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  font-family: "Oswald", serif;
+  padding-left: 70px;
+  padding-top: 21px;
+}
+.header__footer__link__img:hover {
+  height: 140px;
+}
+.header__footer__link-two {
+  display: block;
+  text-decoration: none;
+}
+.header__footer__link-two__img {
+  margin-top: 23px;
+  margin-left: 98px;
+}
+.header__footer__link-two__p-txt {
+  color: rgb(149, 149, 149);
+  font-family: "Oswald", serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  font-family: "Oswald", serif;
+  padding-left: 102px;
+  padding-top: 21px;
+}
+.header__footer__link-two__img:hover {
+  height: 140px;
+}
+.header__footer__link-three {
+  display: block;
+  text-decoration: none;
+}
+.header__footer__link-three__img {
+  width: 182px;
+  height: 190px;
+  position: relative;
+  left: 97px;
+  bottom: 50px;
+  border-radius: 70px;
+}
+.header__footer__link-three__p-txt {
+  color: rgb(98, 87, 145);
+  font-family: "Oswald", serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  padding-left: 140px;
+  margin-top: -40px;
+}
+.header__footer__link-three__img:hover {
+  width: 230px;
+  height: 230px;
+}
+.header__footer__link-four {
+  display: block;
+  text-decoration: none;
+}
+.header__footer__link-four__img {
+  margin-top: 23px;
+  margin-left: 108px;
+}
+.header__footer__link-four__p-txt {
+  color: rgb(149, 149, 149);
+  font-family: "Oswald", serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  padding-left: 140px;
+  padding-top: 21px;
+}
+.header__footer__link-four__img:hover {
+  height: 140px;
+}
+.header__footer__link-five {
+  display: block;
+  text-decoration: none;
+}
+.header__footer__link-five__img {
+  margin-top: 23px;
+  margin-left: 68px;
+}
+.header__footer__link-five__p-txt {
+  font-family: "Oswald", serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(149, 149, 149);
+  line-height: 50px;
+  padding-left: 50px;
+  padding-top: 21px;
+}
+.header__footer__link-five__img:hover {
+  height: 140px;
+}
+
+.footer {
+  padding-top: 20px;
+  margin-top: 200px;
+}
+.footer__item {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item__list__link {
+  position: relative;
+}
+.footer__item__list__link__txt {
+  text-align: center;
+  color: rgb(98, 87, 145);
+  font-family: Cera Condensed Pro;
+  font-size: 40px;
+}
+.footer__item__list__link__icon {
+  width: 93.68px;
+}
+.footer__item__list__link:hover .footer__item__list__link__icon {
+  position: absolute;
+  top: -80px;
+  left: -48px;
+  width: 182px;
+}
+.footer__item__list__link:hover .footer__item__list__link__txt {
+  margin-top: 117px;
+}/*# sourceMappingURL=perfil.css.map */
