@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  width: 1080px;
+  height: 1928px;
+  background: rgb(98, 87, 145);
+}
+.header__img {
+  margin-top: 489px;
+  margin-left: 174px;
+}
+.header__p-txt {
+  color: rgb(255, 255, 255);
+  font-family: Cera Compact Pro;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  padding-left: 188px;
+  padding-top: 85px;
+}
+.header__form__input {
+  width: 597px;
+  height: 113px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 85px;
+  background: rgb(98, 87, 145);
+  font-family: Cera Compact Pro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0%;
+  margin-left: 249px;
+  margin-top: 48px;
+}
+.header__form__input::-moz-placeholder {
+  color: rgb(255, 255, 255);
+  font-family: Cera Compact Pro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0%;
+  padding-left: 49px;
+}
+.header__form__input::placeholder {
+  color: rgb(255, 255, 255);
+  font-family: Cera Compact Pro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0%;
+  padding-left: 49px;
+}
+.header__form__input-two {
+  width: 291px;
+  height: 95px;
+  border-radius: 85px;
+  background: rgb(248, 188, 25);
+  color: rgb(255, 255, 255);
+  font-family: Cera Compact Pro;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  margin-left: 402px;
+  margin-top: 67px;
+  border: none;
+}
+.header__btn {
+  color: rgb(243, 155, 3);
+  font-family: Cera Compact Pro;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  border-radius: 85px;
+  background: rgb(255, 255, 255);
+  width: 499px;
+  height: 95px;
+  margin-left: 298px;
+  margin-top: 228px;
+  border: none;
+}/*# sourceMappingURL=senha.css.map */
